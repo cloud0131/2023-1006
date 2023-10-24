@@ -1,6 +1,6 @@
 import React from "react";
-export const conmTodo = (props)=>{
-    const{conmTodo,onClick}=props;
+export const conmTodo = ( props ) => {
+    const { compTodos,onClickBack } = props;
     return(
         <div className="complete-area">
         <p className="title">完了のTodo</p>
